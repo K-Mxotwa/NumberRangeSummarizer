@@ -29,20 +29,21 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
     @Override
     public String summarizedCollection(Collection<Integer> input) {
+
+        //for building summarized ranges
         StringBuilder summarizedString = new StringBuilder();
+        //for tracking minimum of the rage
         int beginning;
+        //for tracking maximum of the range
         int end;
+        //check the base case
         if(input == null || input.isEmpty()){
             return "";
         }
 
         else {
             List<Integer> inputList = new ArrayList<>(input);
-
-
-            //for tracking minimum of the rage
             beginning  = inputList.get(0);
-            //for tracking maximum of the range
             end = inputList.get(0);
 
             for(int i=1; i<inputList.size(); i++){
@@ -59,22 +60,26 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
                 }
             }
         }
+        //appending the last range
         rangeMaker(summarizedString, beginning,end);
         return summarizedString.toString();
     }
 
     private void rangeMaker(StringBuilder summarizedString, int beginning, int end) {
 
+        //checking if there is range that is already recorded
         if(summarizedString.length()>0){
             summarizedString.append(", ");
         }
 
+        //saving single value rage
         if(beginning == end){
             summarizedString.append(beginning);
         }
 
         else{
-            summarizedString.append(beginning).append("-").append(end);
+            //saving multiple value range
+            summarizedString.append(beginning).append(" - ").append(end);
         }
     }
 }

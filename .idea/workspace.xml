@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="Implemented summarized collection">
+    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="fixed missing last range">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumberRangeSummarizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumberRangeSummarizerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/kuhle/Desktop/numberrangessummarizer/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/kuhle/Desktop/JustTesting",
+    "onboarding.tips.debug.path": "/home/kuhle/Desktop/numberrangessummarizer/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -104,14 +107,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719675118537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed missing last range">
+      <option name="closed" value="true" />
+      <created>1719679751825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719679751825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created all required files Interface, Interface implementation and interface implementation test" />
     <MESSAGE value="Implement collect method" />
     <MESSAGE value="Implemented summarized collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented summarized collection" />
+    <MESSAGE value="fixed missing last range" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed missing last range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

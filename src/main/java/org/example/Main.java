@@ -19,7 +19,7 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
-        String input = "1 ,3 ,6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
+        String input = "1 ,3 ,6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31 , 32, 33";
         NumberRangeSummarizer numberRangeSummarizer = new NumberRangeSummarizerImpl();
         Collection<Integer> integers = numberRangeSummarizer.collect(input);
         String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
