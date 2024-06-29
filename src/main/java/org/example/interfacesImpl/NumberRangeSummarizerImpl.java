@@ -21,7 +21,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
         List<Integer> inputList= new ArrayList<>();
 
         for (int i=0; i< tempArray.length; i++){
-            inputList.add(Integer.parseInt(tempArray[i]));
+            inputList.add(Integer.parseInt(tempArray[i].trim()));
         }
         inputList.sort(Integer::compareTo);
         return inputList;

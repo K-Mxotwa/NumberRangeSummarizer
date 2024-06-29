@@ -1,5 +1,11 @@
 package org.example;
 
+import org.example.interfaces.NumberRangeSummarizer;
+import org.example.interfacesImpl.NumberRangeSummarizerImpl;
+
+import java.util.Collection;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -13,5 +19,11 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        String input = "1 ,3 ,6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
+        NumberRangeSummarizer numberRangeSummarizer = new NumberRangeSummarizerImpl();
+        Collection<Integer> integers = numberRangeSummarizer.collect(input);
+        String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
+
     }
 }
