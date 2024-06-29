@@ -19,6 +19,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
         //initialising the list that will hold the integers
         List<Integer> inputList= new ArrayList<>();
         if(input != ""){
+
             for (int i=0; i< tempArray.length; i++){
                 inputList.add(Integer.parseInt(tempArray[i].trim()));
             }
