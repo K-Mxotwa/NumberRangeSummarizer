@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/NumberRangeSummarizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NumberRangeSummarizerTest.java" afterDir="false" />
+    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="Created all required files Interface, Interface implementation and interface implementation test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,20 @@
       <option name="presentableId" value="Default" />
       <updated>1719669712660</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created all required files Interface, Interface implementation and interface implementation test">
+      <option name="closed" value="true" />
+      <created>1719670400916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670400916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created all required files Interface, Interface implementation and interface implementation test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created all required files Interface, Interface implementation and interface implementation test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
