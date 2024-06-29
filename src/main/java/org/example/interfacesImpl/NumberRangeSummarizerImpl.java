@@ -5,7 +5,6 @@ import org.example.interfaces.NumberRangeSummarizer;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
@@ -31,6 +30,8 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
     @Override
     public String summarizedCollection(Collection<Integer> input) {
         StringBuilder summarizedString = new StringBuilder();
+        int beginning;
+        int end;
         if(input == null || input.isEmpty()){
             return "";
         }
@@ -40,9 +41,9 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
 
             //for tracking minimum of the rage
-            int beginning  = inputList.get(0);
+            beginning  = inputList.get(0);
             //for tracking maximum of the range
-            int end = inputList.get(0);
+            end = inputList.get(0);
 
             for(int i=1; i<inputList.size(); i++){
                 //candidate maximum tracking
@@ -58,6 +59,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
                 }
             }
         }
+        rangeMaker(summarizedString, beginning,end);
         return summarizedString.toString();
     }
 
