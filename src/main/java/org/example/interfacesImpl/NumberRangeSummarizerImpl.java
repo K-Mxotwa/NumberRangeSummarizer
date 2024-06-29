@@ -56,7 +56,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
                 }else{
                     //sequence does not continue so save current range
                     rangeMaker(summarizedString, beginning,end);
-                    //updating beginning and end to for new range
+                    //updating beginning and end to for new range to be recorded
                     beginning = currentNumber;
                     end = currentNumber;
                 }
@@ -81,6 +81,8 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
         else{
             //saving multiple value range
+            //the spaces added before and after "-" is to accommodate negetive numbers.
+            // "-12 - -10 range" instead of "-12--10"
             summarizedString.append(beginning).append(" - ").append(end);
         }
     }
