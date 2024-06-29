@@ -26,26 +26,31 @@ public class Main {
         System.out.println(summerizedString);
 
         input = "";
+        numberRangeSummarizer = new NumberRangeSummarizerImpl();
         integers = numberRangeSummarizer.collect(input);
         summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);
 
         input = "13";
+        numberRangeSummarizer = new NumberRangeSummarizerImpl();
         integers = numberRangeSummarizer.collect(input);
         summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);
 
         input = "77, 76, 1, 3, 6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
+        numberRangeSummarizer = new NumberRangeSummarizerImpl();
         integers = numberRangeSummarizer.collect(input);
         summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);
 
         input = "1 ,3 ,6, 7, 8, -12, -13, -14, 15, 21, 22, 23, 24, 31";
+        numberRangeSummarizer = new NumberRangeSummarizerImpl();
         integers = numberRangeSummarizer.collect(input);
         summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);
 
         input = "-42, -1 ,-3 ,-6, -7, -8, -12, -13, -14, -15, -21, -22, -23, -24, -31";
+        numberRangeSummarizer = new NumberRangeSummarizerImpl();
         integers = numberRangeSummarizer.collect(input);
         summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);

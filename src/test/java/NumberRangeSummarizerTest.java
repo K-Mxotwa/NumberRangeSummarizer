@@ -40,7 +40,7 @@ public class NumberRangeSummarizerTest {
         String input = "77, 76, 1, 3, 6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
         Collection<Integer> integers = numberRangeSummarizer.collect(input);
         String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
-        assertEquals("13", summerizedString); //change with real expected results
+        assertEquals("1, 3, 6 - 8, 12 - 15, 21 - 24, 31, 76 - 77", summerizedString);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class NumberRangeSummarizerTest {
         String input = "1 ,3 ,6, 7, 8, -12, -13, -14, 15, 21, 22, 23, 24, 31";
         Collection<Integer> integers = numberRangeSummarizer.collect(input);
         String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
-        assertEquals("13", summerizedString); //change with real expected results
+        assertEquals("-14 - -12, 1, 3, 6 - 8, 15, 21 - 24, 31", summerizedString);
     }
 
     @Test
@@ -56,6 +56,6 @@ public class NumberRangeSummarizerTest {
         String input = "-42, -1 ,-3 ,-6, -7, -8, -12, -13, -14, -15, -21, -22, -23, -24, -31";
         Collection<Integer> integers = numberRangeSummarizer.collect(input);
         String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
-        assertEquals("13", summerizedString);//change with real expected results
+        assertEquals("-42, -31, -24 - -21, -15 - -12, -8 - -6, -3, -1", summerizedString);
     }
 }
