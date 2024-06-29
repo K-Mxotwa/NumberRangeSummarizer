@@ -9,7 +9,6 @@ public class NumberRangeSummarizerTest {
 
     //private String input = "1,3 ,6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
     private NumberRangeSummarizer numberRangeSummarizer;
-
     public void creation(){
         numberRangeSummarizer = new NumberRangeSummarizerImpl();
     }
