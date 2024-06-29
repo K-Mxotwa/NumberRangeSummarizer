@@ -25,5 +25,29 @@ public class Main {
         String summerizedString = numberRangeSummarizer.summarizedCollection(integers);
         System.out.println(summerizedString);
 
+        input = "";
+        integers = numberRangeSummarizer.collect(input);
+        summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
+
+        input = "13";
+        integers = numberRangeSummarizer.collect(input);
+        summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
+
+        input = "77, 76, 1, 3, 6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31";
+        integers = numberRangeSummarizer.collect(input);
+        summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
+
+        input = "1 ,3 ,6, 7, 8, -12, -13, -14, 15, 21, 22, 23, 24, 31";
+        integers = numberRangeSummarizer.collect(input);
+        summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
+
+        input = "-42, -1 ,-3 ,-6, -7, -8, -12, -13, -14, -15, -21, -22, -23, -24, -31";
+        integers = numberRangeSummarizer.collect(input);
+        summerizedString = numberRangeSummarizer.summarizedCollection(integers);
+        System.out.println(summerizedString);
     }
 }

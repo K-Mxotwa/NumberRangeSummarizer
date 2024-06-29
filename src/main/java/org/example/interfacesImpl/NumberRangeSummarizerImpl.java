@@ -18,11 +18,12 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
         String[] tempArray = input.split(",");
         //initialising the list that will hold the integers
         List<Integer> inputList= new ArrayList<>();
-
-        for (int i=0; i< tempArray.length; i++){
-            inputList.add(Integer.parseInt(tempArray[i].trim()));
+        if(input != ""){
+            for (int i=0; i< tempArray.length; i++){
+                inputList.add(Integer.parseInt(tempArray[i].trim()));
+            }
+            inputList.sort(Integer::compareTo);
         }
-        inputList.sort(Integer::compareTo);
         return inputList;
     }
 

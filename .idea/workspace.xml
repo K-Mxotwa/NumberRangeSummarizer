@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="fixed missing last range">
+    <list default="true" id="a52606a7-47a0-4e86-b2a6-5e9768f1158b" name="Changes" comment="implemented the testing methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfacesImpl/NumberRangeSummarizerImpl.java" afterDir="false" />
@@ -115,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719679751825</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed missing last range">
+      <option name="closed" value="true" />
+      <created>1719682286143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719682286143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implemented the testing methods">
+      <option name="closed" value="true" />
+      <created>1719682350463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719682350463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,17 +139,7 @@
     <MESSAGE value="Implement collect method" />
     <MESSAGE value="Implemented summarized collection" />
     <MESSAGE value="fixed missing last range" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed missing last range" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="implemented the testing methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented the testing methods" />
   </component>
 </project>
