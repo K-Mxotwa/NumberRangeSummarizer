@@ -30,14 +30,14 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
     @Override
     public String summarizedCollection(Collection<Integer> input) {
-
+        StringBuilder summarizedString = new StringBuilder();
         if(input == null || input.isEmpty()){
             return "";
         }
 
         else {
             List<Integer> inputList = new ArrayList<>(input);
-            StringBuilder summarizedString = new StringBuilder();
+
 
             //for tracking minimum of the rage
             int beginning  = inputList.get(0);
@@ -50,13 +50,15 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
                 if(currentNumber - 1 == end){
                     end = currentNumber;
                 }else{
+                    //sequence does not continue so save current range
                     rangeMaker(summarizedString, beginning,end);
+                    //updating beginning and end to for new range
                     beginning = currentNumber;
                     end = currentNumber;
                 }
             }
         }
-        return "";
+        return summarizedString.toString();
     }
 
     private void rangeMaker(StringBuilder summarizedString, int beginning, int end) {
