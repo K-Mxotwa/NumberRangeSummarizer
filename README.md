@@ -30,7 +30,8 @@ Tools used:
 - JUnit
 - Java 11
 - Git
-- 
+
+  
 Testing:
 - Navigate to the project directory in the terminal and execute the command below
 - mvn test
