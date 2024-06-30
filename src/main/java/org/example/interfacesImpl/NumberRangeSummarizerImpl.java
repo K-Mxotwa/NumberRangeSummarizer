@@ -82,7 +82,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
         else{
             //saving multiple value range
             //the spaces added before and after "-" is to accommodate negetive numbers.
-            // "-12 - -10 range" instead of "-12--10"
+            // "-12 - -10 range" instead of "-12--10 range" the first range string is more readable
             summarizedString.append(beginning).append(" - ").append(end);
         }
     }
